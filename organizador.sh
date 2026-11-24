@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Script mejorado con validación de directorios
+
 # Verifica si el directorio fue proporcionado y si existe
 if [ -z "$1" ] || [ ! -d "$1" ]; then
     echo "Error: El directorio no existe o no se proporcionó un argumento válido."
